@@ -17,5 +17,5 @@ npm start:prod
 
 ## Things to try:
 
-- [ ] use exact same plugins
-- [ ] is `lerna` the reason? => try `npm link`
+- [x] use exact same plugins
+- [x] is `lerna` the reason? => try `npm link`

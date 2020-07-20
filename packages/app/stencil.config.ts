@@ -16,4 +16,8 @@ export const config: Config = {
     },
   ],
   plugins: [builtins()],
+  nodeResolve: {
+    browser: true,
+    preferBuiltins: true, // Workaround for https://github.com/ionic-team/stencil/issues/1326
+  },
 };
