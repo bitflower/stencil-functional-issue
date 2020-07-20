@@ -14,3 +14,8 @@ npm i
 npm link design-system
 npm start:prod
 ```
+
+## Things to try:
+
+- [ ] use exact same plugins
+- [ ] is `lerna` the reason? => try `npm link`
