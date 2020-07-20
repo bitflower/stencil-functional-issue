@@ -28,6 +28,7 @@ export class AppHome {
         </div>
         <div>
           <CoIcon name='ion-pencil' />
+          <CoIcon name='ion-checkmark-circle-outline' />
         </div>
 
         <stencil-route-link url='/profile/stencil'>

@@ -26,6 +26,6 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ionic/core": "^5.2.3"
+    "@ionic/core": "^5.1.0"
   }
 }

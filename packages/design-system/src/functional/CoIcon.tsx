@@ -54,7 +54,6 @@ export const CoIcon: FunctionalComponent<CoIconProps> = (
 
     case 'ion':
       // props.size = props.size || 'small';
-      // return <ion-icon name='pencil' />;
       return renderIonIcon(parts.slice(1).join('-'), props);
 
     case 'fa':
