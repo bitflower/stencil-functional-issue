@@ -15,5 +15,8 @@
     "@stencil/core": "^1.12.7",
     "@stencil/router": "^1.0.1"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rollup-plugin-node-builtins": "^2.1.2"
+  }
 }
