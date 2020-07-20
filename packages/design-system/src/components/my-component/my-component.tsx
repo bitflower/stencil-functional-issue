@@ -1,10 +1,11 @@
-import { Component, Prop, h } from '@stencil/core';
+import { Component, Prop, h, Host } from '@stencil/core';
 import { format } from '../../utils/utils';
+import { CoIcon } from '../../functional';
 
 @Component({
   tag: 'my-component',
   styleUrl: 'my-component.css',
-  shadow: true
+  shadow: true,
 })
 export class MyComponent {
   /**
@@ -27,6 +28,15 @@ export class MyComponent {
   }
 
   render() {
-    return <div>Hello, World! I'm {this.getText()}</div>;
+    return (
+      <Host>
+        <div>Hello, World! I'm {this.getText()}</div>
+        <div>
+          This is a functional component consumed from within the Stencil
+          package containing it:
+        </div>
+        <CoIcon name='ion-pencil' />
+      </Host>
+    );
   }
 }
