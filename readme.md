@@ -12,5 +12,5 @@ cd ..
 cd packages/app
 npm i
 npm link design-system
-npm start
+npm start:prod
 ```
